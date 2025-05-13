@@ -1,3 +1,4 @@
+nombre=input("ingrese su nombre")
 quintil=int(input("ingrese su quintil"))
 condicionlaboral=input(" ingrese su condicon laboral")
 edad=int(input(" ingrese su edad"))
@@ -18,4 +19,4 @@ if quintil in [1, 2]:
 if edad >=65:
     subsidio += 3000
 resultado=subsidio
-print("segun su quintil que es", quintil , "y su condicion laboral que actualmente es", condicionlaboral,"a obtenido un subsidio de gas por el valor de", resultado)
+print("hola",nombre, "segun su quintil que es", quintil , "y su condicion laboral que actualmente es", condicionlaboral,"a obtenido un subsidio de gas por el valor de", resultado)
